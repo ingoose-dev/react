@@ -109,3 +109,11 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;      /* Permite que bajen a otra línea */
+    gap: 20px;            /* Espacio entre productos */
+    justify-content: center;
+    padding: 20px;
+}
