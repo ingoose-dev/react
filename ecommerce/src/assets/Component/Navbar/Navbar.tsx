@@ -1,9 +1,12 @@
 import './Navbar.css'
+import logo from '../../images/logo.png'
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div>Empresa</div>
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+      </div>
       <ul className="nav-links">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Productos</a></li>
